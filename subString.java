@@ -6,7 +6,7 @@ public class subString {
         //String sentance=sc.nextLine();
         String sentance="my name is Adarsh Raj";
 
-        // substring function ==>> It gives any word from a sentance that you want
+        // substring function ==>> It gives any word
         
         String name =sentance.substring(11,17);
         System.out.println(name);
