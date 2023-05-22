@@ -16,6 +16,9 @@ public class strings {
     //charAt ==>>print every character of word.
     
     for(int i=0;i<FullName.length();i++){
+        if(FullName.charAt(i)=='c'){
+            
+        }
         System.out.println(FullName.charAt(i));
     }
 

@@ -26,7 +26,7 @@ public class twoDArray_transpose {
             for(int j=0;j<colns;j++){
                 System.out.print(matrix[j][i]);
             }
-            System.out.println();67
+            System.out.println();
         }
 
     }

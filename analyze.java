@@ -1,16 +1,11 @@
-public class analyze{
-   public static void main(String[] args){
+public class analyze {
+   public static void main(String[] args) {
 
-    for(; ;) {
-        System.out.println("Apna College");
-        }
-        
+      for (;;) {
+         System.out.println("Apna College");
 
-
+      }
 
    }
-
-
-
 
 }
