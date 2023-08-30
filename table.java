@@ -6,7 +6,7 @@ public class table {
         int n=10;
         int table=sc.nextInt();
         for(int i=1;i<=n;i++){
-            System.out.println(table*i);
+        System.out.println(table*i);
         }
     }
     
