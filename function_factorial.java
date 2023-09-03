@@ -1,26 +1,19 @@
 import java.util.*;
 public class function_factorial {
-    public static void printFactoril(int n){
-        if(n<0){
-           System.out.println("Enter a +ve number");
-           return;
-        }
-
-
+    public static int calculateFactorial(int n){
         int factorial=1;
-        for(int i=n;i>=1;i--){
+        for(int i=n;i>0;i--){
             factorial=factorial*i;
         }
-        System.out.println(factorial);
-        return;
+        return factorial;
+         
     }
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter a +ve number");
         int n=sc.nextInt();
-        System.out.println("factorial is : ");
-        printFactoril(n);
+        int factorial= calculateFactorial(n);
+        System.out.println(factorial);
+
     }
-    
-    
 }
+   
