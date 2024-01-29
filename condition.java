@@ -7,7 +7,6 @@ public class condition {
     int button=sc.nextInt();
     switch (button) {
         case 1:System.out.println("Hello");
-            
             break;
         case 2:System.out.println("Namste");
             break;
