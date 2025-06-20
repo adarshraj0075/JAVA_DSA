@@ -26,7 +26,11 @@ public class RecurMazeStorPath {
 //cli command
 //ls , cd-->inward ,outwnward, mkdir
 // git add 
-// git commit
+// git commit -m ""
 //git push
 
 //colabaration using git hub
+// to create branch
+//git branch --list (list all the branches)
+//git branch BranchName(creates the branch)
+//git checkout BranchName (move to other branch)
